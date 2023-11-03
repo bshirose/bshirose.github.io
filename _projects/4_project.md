@@ -1,80 +1,15 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: Race Car Control Optimization
+description: Enhanced race car performance through state-space analysis.
+img: assets/img/caaa.jpg
 importance: 3
-category: fun
+category: work
 ---
+In the project titled "Race Car Control Optimization and LQR Integration," conducted over the course of a month from October 22 to November 22, we embarked on a comprehensive exploration of control strategies to enhance the performance of a race car in a simulation environment.
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Our approach began with a deep dive into state-space analysis and advanced control theory. By meticulously fine-tuning the control parameters based on state-space modeling, we aimed to achieve optimal control of the race car. This phase involved a detailed analysis of the car's dynamics, including its position, velocity, and other relevant state variables, to ensure that every aspect of its behavior was effectively controlled.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+One of the standout accomplishments of this project was the successful integration of an LQR (Linear Quadratic Regulator) controller into the simulation. The LQR controller is renowned for its effectiveness in optimizing control systems, and its application to our race car proved transformative. As a result of this integration, we achieved a significant performance boost.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+The most impressive outcome was the reduction of track traversal time by a remarkable 2x compared to the initial PID (Proportional-Integral-Derivative) controller setup. Despite this remarkable speed improvement, we also managed to maintain a mean deviation of just 0.48 meters, indicating the precision and stability of the new control system. This achievement is a testament to the power of advanced control techniques in the field of race car control, and it has the potential to revolutionize motorsport by significantly enhancing both speed and safety in competitive racing events.

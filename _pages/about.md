@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='http://biorobotics.ri.cmu.edu/index.php'>Biorobotics Lab</a>. Carnegie Mellon University 
+subtitle: Graduate Research Assistant <a href='http://biorobotics.ri.cmu.edu/index.php'>Biorobotics Lab</a>. Carnegie Mellon University 
 
 profile:
   align: right
@@ -28,6 +28,6 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 I'm Burhan, a passionate graduate student at [Carnegie Mellon University](https://www.ri.cmu.edu/ri-people/burhanuddin-shirose/) specializing in Robotics. My strong foundation in planning and controls, combined with expertise in programming languages and software tools like Python, C/C++, ROS, Solidworks, and more, equips me to tackle complex engineering challenges.
 
-My research at Carnegie Mellon's Robotics Institute focuses on innovative projects, such as [decentralized multi-agent systems](https://www.ri.cmu.edu/project/mmpug-multi-model-perception-uber-good/) for search and rescue missions and optimizing control systems for various applications. I've also made contributions to publications, reflecting my dedication to advancing the field.
+My research at Carnegie Mellon's Robotics Institute focuses on innovative projects, such as [decentralized multi-agent systems](https://www.ri.cmu.edu/project/mmpug-multi-model-perception-uber-good/) for search and rescue missions and optimizing control systems for various applications. I've also made contributions to academia via publications, reflecting my dedication to advancing the field.
 
 I'm excited about the future of robotics and eager to collaborate on cutting-edge projects. Let's connect and explore opportunities to make a difference in the world of engineering and technology together.
