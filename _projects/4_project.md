@@ -4,7 +4,7 @@ title: Race Car Control Optimization
 description: Enhanced race car performance through state-space analysis.
 img: assets/img/caaa.jpg
 importance: 3
-category: work
+category: Robotics
 ---
 In the project titled "Race Car Control Optimization and LQR Integration," conducted over the course of a month from October 22 to November 22, we embarked on a comprehensive exploration of control strategies to enhance the performance of a race car in a simulation environment.
 

@@ -4,7 +4,7 @@ title: Hetergenous Getting out Maneuver
 description: Diverse methods for strategic evasion and escape, addressing varying challenging environments.
 img: assets/img/sppt.jpg
 importance: 2
-category: work
+category: Robotics
 giscus_comments: false
 ---
 

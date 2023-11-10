@@ -5,7 +5,7 @@ description: Applied robust control methods, achieving a remarkable stability ma
 img: assets/img/qqq.jpeg
 # redirect: https://unsplash.com
 importance: 3
-category: work
+category: Robotics
 ---
 In my research project, I meticulously implemented and rigorously tested a repertoire of well-established robust control techniques, which included H-infinity Loop-shaping, H-infinity Optimal Control, H2 Optimal Control, and Mu-synthesis, specifically tailored to the intricate dynamics of the Quanser Bi-copter system. The Quanser Bi-copter is a highly agile and complex aerial vehicle, and the goal was to establish a control system that could ensure stability and reliable performance under conditions of significant coupling between its control inputs and outputs, as well as in the presence of considerable uncertainties in the system's behavior.
 
