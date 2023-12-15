@@ -17,5 +17,16 @@ Augmented reality (AR) presented another exciting dimension to the project, and 
 Stitching images seamlessly to create panoramic views emerged as a final aspect of the project. Leveraging the insights gained from homography estimation, I employed advanced stitching algorithms to seamlessly combine multiple images into a cohesive panorama. This process involved aligning images based on the estimated homography, correcting for distortions, and blending them seamlessly to create a visually coherent and expansive view.
 
 In conclusion, the implementation of the Hough Transform for edge detection, Bag of Visual Words for scene classification, and Homography Estimation with features like Harris corners, BRIEF, and SIFT descriptor matching for augmented reality, showcased the synergy of diverse computer vision techniques. These methodologies, collectively harnessed, not only enhance the fundamental understanding of images but also pave the way for applications in augmented reality and panoramic imaging, demonstrating the versatility and power of computer vision in contemporary technological landscapes.
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Screenshot from 2023-12-14 22-30-26.png"  title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+     <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/1 QgI1t-7yJApi4vQigFgsLQ.jpg" title="example image" class="img-fluid rounded z-depth-1"  %}
+    </div>
+</div> 
+<!-- <div class="caption">
+    Cleaning mechanism deisgned for the robot
+</div> -->
 
 

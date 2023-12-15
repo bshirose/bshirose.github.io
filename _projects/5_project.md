@@ -11,3 +11,16 @@ I spearheaded the design and development of an advanced underwater remotely oper
 One of the standout features of this ROV is its inspection mode, a sophisticated capability that elevates its utility in the realm of in-depth analysis during maintenance tasks. The inspection mode allows for meticulous scrutiny of cleaning surfaces, enabling the identification and assessment of defects such as cracks and structural irregularities. This proactive approach to defect detection not only enhances the ROV's effectiveness but also contributes significantly to comprehensive maintenance strategies.
 
 The adhesive thrusters, in combination with the inspection mode, create a synergistic effect, positioning the ROV as an indispensable tool for a wide range of underwater applications. Beyond biofouling removal, this ROV proves invaluable in comprehensive maintenance and inspection tasks, ensuring the integrity and longevity of submerged structures. Whether deployed for routine inspections or addressing specific issues, this advanced ROV stands as a testament to innovation in underwater technology, offering a robust solution for the multifaceted challenges posed by subaquatic environments.
+
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Screenshot from 2023-12-14 22-14-06.png"  title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+     <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Screenshot from 2023-12-14 22-14-38.png" title="example image" class="img-fluid rounded z-depth-1"  %}
+    </div>
+</div> 
+<div class="caption">
+    Cleaning mechanism deisgned for the robot
+</div>

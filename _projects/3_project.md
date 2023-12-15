@@ -15,3 +15,12 @@ Presenting a groundbreaking solution to the intricate challenge of designing con
 The development process utilized MATLAB for controller design and Simulink for simulation, where meticulous parameter tuning was performed to ensure optimal performance in the presence of uncertainties introduced into the plant. The culmination of our efforts involved the practical implementation of these controllers on the hardware setup, subjecting them to a square wave reference for both Yaw and Pitch axes. Rigorous analysis of the results ensued, accompanied by additional parameter fine-tuning for controllers exhibiting suboptimal performance.
 
 Notably, the H ∞ loop shaping controller emerged as the most effective performer in reference tracking. This comprehensive project not only successfully navigated the complexities of multi-input output systems but also demonstrated a meticulous approach to design, simulation, and implementation. As a result, our work significantly contributes to the field of robust bi-copter control, showcasing a groundbreaking advancement in controller design methodologies.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/controls1.gif"  title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div> 
+<div class="caption">
+    Stabilizing control
+</div>
