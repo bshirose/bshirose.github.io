@@ -15,10 +15,10 @@ The adhesive thrusters, in combination with the inspection mode, create a synerg
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1221.png"  title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/1221.png"  class="img-fluid rounded z-depth-1" %}
     </div>
      <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/2323.png" title="example image" class="img-fluid rounded z-depth-1"  %}
+        {% include figure.html path="assets/img/2323.png"  class="img-fluid rounded z-depth-1"  %}
     </div>
 </div> 
 <div class="caption">

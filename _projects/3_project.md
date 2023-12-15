@@ -18,7 +18,7 @@ Notably, the H ∞ loop shaping controller emerged as the most effective perform
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/controls1.gif"  title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/controls1.gif"  class="img-fluid rounded z-depth-1" %}
     </div>
 </div> 
 <div class="caption">
