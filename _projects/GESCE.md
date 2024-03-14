@@ -6,7 +6,9 @@ img: assets/img/fhope.png
 importance: 3
 category: Research Projects
 ---
-
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
   /* Style for the grid container */
   .grid-container {
@@ -27,8 +29,11 @@ category: Research Projects
 <div class="grid-container">
   <!-- Replace the src attribute value with the path to your images -->
   <img class="grid-item" src="assets/img/1pberlin1.png" alt="Image 1">
-  <img class="grid-item" src="assets/img/1pberlin2.png" alt="Image 2">
-  <img class="grid-item" src="assets/img/1pberlin3.png" alt="Image 3">
+  <img class="grid-item" src="assets/img/1pboston1.png" alt="Image 2">
+  <img class="grid-item" src="assets/img/1pmaze11.png" alt="Image 3">
+  <img class="grid-item" src="assets/img/1pmaze32.png" alt="Image 3">
+  <img class="grid-item" src="assets/img/1pparis1.png" alt="Image 3">
+
   <!-- Add more images as needed -->
 </div>
 </body>
