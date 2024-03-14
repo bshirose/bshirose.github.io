@@ -39,6 +39,7 @@ category: Research Projects
 
 <div class="row">
   <div class="column">
+    {% include figure.html path="assets/img/1pberlin1.png"  class="img-fluid rounded z-depth-1" %}
     <img src="assets/img/1pberlin1.png">
     <img src="assets/img/1pberlin2.png">
     <img src="assets/img/1pberlin5.png">
