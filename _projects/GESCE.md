@@ -7,7 +7,40 @@ importance: 3
 category: Research Projects
 ---
 
+<style>
+  /* Style for the grid container */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the minimum and maximum width of each grid item */
+    gap: 10px; /* Adjust the gap between grid items */
+  }
 
+  /* Style for grid items */
+  .grid-item {
+    width: 100%;
+    height: auto;
+  }
+</style>
+</head>
+<body>
+
+<div class="grid-container">
+  <!-- Replace the src attribute value with the path to your images -->
+  <img class="grid-item" src="assets/img/1pberlin1.png" alt="Image 1">
+  <img class="grid-item" src="assets/img/1pberlin2.png" alt="Image 2">
+  <img class="grid-item" src="assets/img/1pberlin3.png" alt="Image 3">
+  <!-- Add more images as needed -->
+</div>
+</body>
+
+
+
+
+
+
+
+
+<!-- 
 <div class="row">
   <div class="column">
     <img src="assets/img/1pberlin1.png">
@@ -15,7 +48,6 @@ category: Research Projects
     <img src="assets/img/1pberlin5.png">
     <img src="assets/img/1pberlin4.png">
     <img src="assets/img/1pberlin6.png">
-    <!-- <img src="1.jpg"> -->
   </div>
   <div class="column">
     <img src="assets/img/1pboston1.png">
@@ -24,4 +56,4 @@ category: Research Projects
     <img src="assets/img/1pboston5.png">
     <img src="assets/img/1pboston6.png">
   </div>
-</div>
+</div> -->
