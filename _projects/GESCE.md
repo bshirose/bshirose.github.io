@@ -112,74 +112,74 @@ category: Research Projects
   </div>
 
    <div class="column" style="column-count: 5" >
-    {% include figure.html path="assets/img/results/2ppeaksccropped/2pberlin1.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/2ppeaksccropped/2pboston1.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/2ppeaksccropped/2ppmaze31.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/2ppeaksccropped/2pmaze10.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/2ppeaksccropped/2pparis1.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2peakscropped/2pberlin1.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2peakscropped/2pboston1.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2peakscropped/2ppmaze31.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2peakscropped/2pmaze10.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2peakscropped/2pparis1.png"  class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="column" style="column-count: 5" >
-    {% include figure.html path="assets/img/results/2ppeaksccropped/2pberlin2.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/2ppeaksccropped/2pboston2.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/2ppeaksccropped/2ppmaze32.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/2ppeaksccropped/2pmaze12.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/2ppeaksccropped/2pparis2.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2peakscropped/2pberlin2.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2peakscropped/2pboston2.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2peakscropped/2ppmaze32.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2peakscropped/2pmaze12.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2peakscropped/2pparis2.png"  class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="column" style="column-count: 5" >
-    {% include figure.html path="assets/img/results/2ppeaksccropped/2pberlin4.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/2ppeaksccropped/2pboston3.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/2ppeaksccropped/2ppmaze32.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/2ppeaksccropped/2pmaze14.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/2ppeaksccropped/2pparis3.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2peakscropped/2pberlin4.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2peakscropped/2pboston3.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2peakscropped/2ppmaze32.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2peakscropped/2pmaze14.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2peakscropped/2pparis3.png"  class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="column" style="column-count: 5" >
-    {% include figure.html path="assets/img/results/2ppeaksccropped/2pberlin5.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/2ppeaksccropped/2pboston4.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/2ppeaksccropped/2ppmaze33.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/2ppeaksccropped/2pmaze121.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/2ppeaksccropped/2pparis4.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2peakscropped/2pberlin5.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2peakscropped/2pboston4.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2peakscropped/2ppmaze33.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2peakscropped/2pmaze121.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2peakscropped/2pparis4.png"  class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="column" style="column-count: 5" >
-    {% include figure.html path="assets/img/results/2ppeaksccropped/2pberlin6.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/2ppeaksccropped/2pboston5.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/2ppeaksccropped/2ppmaze35.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/2ppeaksccropped/2pmaze1135.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/2ppeaksccropped/2pparis5.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2peakscropped/2pberlin6.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2peakscropped/2pboston5.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2peakscropped/2ppmaze35.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2peakscropped/2pmaze1135.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2peakscropped/2pparis5.png"  class="img-fluid rounded z-depth-1" %}
   </div>
 
   <div class="column" style="column-count: 5" >
-    {% include figure.html path="assets/img/results/3ppeaksccropped/3pberlin1.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/3ppeaksccropped/3pboston1.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/3ppeaksccropped/3pmaze32.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/3ppeaksccropped/3pmaze12.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/3ppeaksccropped/3pparis1.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/3peakscropped/3pberlin1.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/3peakscropped/3pboston1.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/3peakscropped/3pmaze32.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/3peakscropped/3pmaze12.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/3peakscropped/3pparis1.png"  class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="column" style="column-count: 5" >
-    {% include figure.html path="assets/img/results/3ppeaksccropped/3pberlin2.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/3ppeaksccropped/3pboston2.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/3ppeaksccropped/3pmaze33.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/3ppeaksccropped/3pmaze13.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/3ppeaksccropped/3pparis2.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/3peakscropped/3pberlin2.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/3peakscropped/3pboston2.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/3peakscropped/3pmaze33.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/3peakscropped/3pmaze13.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/3peakscropped/3pparis2.png"  class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="column" style="column-count: 5" >
-    {% include figure.html path="assets/img/results/3ppeaksccropped/3pberlin4.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/3ppeaksccropped/3pboston3.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/3ppeaksccropped/3pmaze34.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/3ppeaksccropped/3pmaze15.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/3ppeaksccropped/3pparis3.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/3peakscropped/3pberlin4.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/3peakscropped/3pboston3.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/3peakscropped/3pmaze34.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/3peakscropped/3pmaze15.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/3peakscropped/3pparis3.png"  class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="column" style="column-count: 5" >
-    {% include figure.html path="assets/img/results/3ppeaksccropped/3pberlin5.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/3ppeaksccropped/3pboston4.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/3ppeaksccropped/3pmaze35.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/3ppeaksccropped/3pmaze110.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/3ppeaksccropped/3pparis4.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/3peakscropped/3pberlin5.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/3peakscropped/3pboston4.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/3peakscropped/3pmaze35.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/3peakscropped/3pmaze110.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/3peakscropped/3pparis4.png"  class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="column" style="column-count: 5" >
-    {% include figure.html path="assets/img/results/3ppeaksccropped/3pberlin6.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/3ppeaksccropped/3pboston5.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/3ppeaksccropped/3pmaze3124.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/3ppeaksccropped/3pmaze11221.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/3ppeaksccropped/3pparis6.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/3peakscropped/3pberlin6.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/3peakscropped/3pboston5.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/3peakscropped/3pmaze3124.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/3peakscropped/3pmaze11221.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/3peakscropped/3pparis6.png"  class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
