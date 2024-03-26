@@ -41,15 +41,37 @@ category: Research Projects
   <div class="column" style="column-count: 5" >
     {% include figure.html path="assets/img/results/1peakcropped/1pberlin1.png"  class="img-fluid rounded z-depth-1" %}
     {% include figure.html path="assets/img/results/1peakcropped/1pboston1.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/1peakcropped/1pmaze11.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/1peakcropped/1pmaze32.png"  class="img-fluid rounded z-depth-1" %}
     {% include figure.html path="assets/img/results/1peakcropped/1pmaze110.png"  class="img-fluid rounded z-depth-1" %}
     {% include figure.html path="assets/img/results/1peakcropped/1pparis1.png"  class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="column" style="column-count: 5" >
     {% include figure.html path="assets/img/results/1peakcropped/1pberlin2.png"  class="img-fluid rounded z-depth-1" %}
     {% include figure.html path="assets/img/results/1peakcropped/1pboston3.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/1peakcropped/1pmaze12.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/1peakcropped/1pmaze33.png"  class="img-fluid rounded z-depth-1" %}
     {% include figure.html path="assets/img/results/1peakcropped/1pmaze111.png"  class="img-fluid rounded z-depth-1" %}
     {% include figure.html path="assets/img/results/1peakcropped/1pparis3.png"  class="img-fluid rounded z-depth-1" %}
+  </div>
+
+  <div class="column" style="column-count: 5" >
+    {% include figure.html path="assets/img/results/1peakcropped/1pberlin4.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/1peakcropped/1pboston4.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/1peakcropped/1pmaze34.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/1peakcropped/1pmaze11.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/1peakcropped/1pparis4.png"  class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="column" style="column-count: 5" >
+    {% include figure.html path="assets/img/results/1peakcropped/1pberlin5.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/1peakcropped/1pboston5.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/1peakcropped/1pmaze312.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/1peakcropped/1pmaze12.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/1peakcropped/1pparis6.png"  class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="column" style="column-count: 5" >
+    {% include figure.html path="assets/img/results/1peakcropped/1pberlin6.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/1peakcropped/1pboston6.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/1peakcropped/1pmaze310.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/1peakcropped/1pmaze118.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/1peakcropped/1pparis7.png"  class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
