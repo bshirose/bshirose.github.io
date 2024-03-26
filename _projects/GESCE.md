@@ -109,4 +109,40 @@ category: Research Projects
     {% include figure.html path="assets/img/results/2p1dcropped/2p1maze1152.png"  class="img-fluid rounded z-depth-1" %}
     {% include figure.html path="assets/img/results/2p1dcropped/2p1pparis6.png"  class="img-fluid rounded z-depth-1" %}
   </div>
+
+   <div class="column" style="column-count: 5" >
+    {% include figure.html path="assets/img/results/2ppeaksccropped/2pberlin1.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2ppeaksccropped/2pboston1.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2ppeaksccropped/2ppmaze31.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2ppeaksccropped/2pmaze10.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2ppeaksccropped/2ppparis1.png"  class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="column" style="column-count: 5" >
+    {% include figure.html path="assets/img/results/2ppeaksccropped/2pberlin2.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2ppeaksccropped/2pboston2.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2ppeaksccropped/2ppmaze32.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2ppeaksccropped/2pmaze12.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2ppeaksccropped/2ppparis2.png"  class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="column" style="column-count: 5" >
+    {% include figure.html path="assets/img/results/2ppeaksccropped/2pberlin4.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2ppeaksccropped/2pboston3.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2ppeaksccropped/2ppmaze32.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2ppeaksccropped/2pmaze14.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2ppeaksccropped/2ppparis3.png"  class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="column" style="column-count: 5" >
+    {% include figure.html path="assets/img/results/2ppeaksccropped/2pberlin5.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2ppeaksccropped/2pboston4.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2ppeaksccropped/2ppmaze33.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2ppeaksccropped/2pmaze121.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2ppeaksccropped/2ppparis4.png"  class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="column" style="column-count: 5" >
+    {% include figure.html path="assets/img/results/2ppeaksccropped/2pberlin6.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2ppeaksccropped/2pboston5.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2ppeaksccropped/2ppmaze35.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2ppeaksccropped/2pmaze1135.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2ppeaksccropped/2ppparis5.png"  class="img-fluid rounded z-depth-1" %}
+  </div>
 </div>
