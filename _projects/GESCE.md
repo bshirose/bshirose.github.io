@@ -52,7 +52,6 @@ category: Research Projects
     {% include figure.html path="assets/img/results/1peakcropped/1pmaze111.png"  class="img-fluid rounded z-depth-1" %}
     {% include figure.html path="assets/img/results/1peakcropped/1pparis3.png"  class="img-fluid rounded z-depth-1" %}
   </div>
-
   <div class="column" style="column-count: 5" >
     {% include figure.html path="assets/img/results/1peakcropped/1pberlin4.png"  class="img-fluid rounded z-depth-1" %}
     {% include figure.html path="assets/img/results/1peakcropped/1pboston4.png"  class="img-fluid rounded z-depth-1" %}
@@ -73,5 +72,41 @@ category: Research Projects
     {% include figure.html path="assets/img/results/1peakcropped/1pmaze310.png"  class="img-fluid rounded z-depth-1" %}
     {% include figure.html path="assets/img/results/1peakcropped/1pmaze118.png"  class="img-fluid rounded z-depth-1" %}
     {% include figure.html path="assets/img/results/1peakcropped/1pparis7.png"  class="img-fluid rounded z-depth-1" %}
+  </div>
+
+  <div class="column" style="column-count: 5" >
+    {% include figure.html path="assets/img/results/2p1dcropped/2p1berlin1.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2p1dcropped/2p1boston1.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2p1dcropped/2p1pmaze31.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2p1dcropped/2p1maze11.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2p1dcropped/2p1pparis1.png"  class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="column" style="column-count: 5" >
+    {% include figure.html path="assets/img/results/2p1dcropped/2p1berlin2.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2p1dcropped/2p1boston2.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2p1dcropped/2p1pmaze32.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2p1dcropped/2p1maze14.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2p1dcropped/2p1pparis2.png"  class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="column" style="column-count: 5" >
+    {% include figure.html path="assets/img/results/2p1dcropped/2p1berlin5.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2p1dcropped/2p1boston3.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2p1dcropped/2p1pmaze33.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2p1dcropped/2p1maze18.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2p1dcropped/2p1pparis3.png"  class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="column" style="column-count: 5" >
+    {% include figure.html path="assets/img/results/2p1dcropped/2p1berlin6.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2p1dcropped/2p1boston4.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2p1dcropped/2p1pmaze34.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2p1dcropped/2p1maze110.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2p1dcropped/2p1pparis4.png"  class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="column" style="column-count: 5" >
+    {% include figure.html path="assets/img/results/2p1dcropped/2p1berlin7.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2p1dcropped/2p1boston5.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2p1dcropped/2p1pmaze3124.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2p1dcropped/2p1maze1152.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/2p1dcropped/2p1pparis6.png"  class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
