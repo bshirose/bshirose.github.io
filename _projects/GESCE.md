@@ -38,7 +38,7 @@ category: Research Projects
  -->
 
 <div class="row">
-  <div class="column">
+  <div class="column" style="column-count: 2" >
     {% include figure.html path="assets/img/1pberlin1.png"  class="img-fluid rounded z-depth-1" %}
     {% include figure.html path="assets/img/1pberlin2.png"  class="img-fluid rounded z-depth-1" %}
     {% include figure.html path="assets/img/1pberlin5.png"  class="img-fluid rounded z-depth-1" %}
