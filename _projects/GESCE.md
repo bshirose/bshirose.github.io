@@ -38,19 +38,18 @@ category: Research Projects
  -->
 
 <div class="row">
-  <div class="column" style="column-count: 2" >
-    {% include figure.html path="assets/img/1pberlin1.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/1pberlin2.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/1pberlin5.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/1pberlin4.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/1pberlin6.png"  class="img-fluid rounded z-depth-1" %}
+  <div class="column" style="column-count: 5" >
+    {% include figure.html path="assets/img/results/1peakcropped/1pberlin1.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/1peakcropped/1pboston1.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/1peakcropped/1pmaze11.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/1peakcropped/1pmaze110.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/1peakcropped/1pparis1.png"  class="img-fluid rounded z-depth-1" %}
   </div>
-  <div class="column">
-
-    {% include figure.html path="assets/img/1pboston1.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/1pboston3.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/1pboston4.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/1pboston5.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/1pboston6.png"  class="img-fluid rounded z-depth-1" %}
+  <div class="column" style="column-count: 5" >
+    {% include figure.html path="assets/img/results/1peakcropped/1pberlin2.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/1peakcropped/1pboston3.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/1peakcropped/1pmaze12.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/1peakcropped/1pmaze111.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/1peakcropped/1pparis3.png"  class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
