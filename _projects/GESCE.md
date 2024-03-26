@@ -69,7 +69,7 @@ category: Research Projects
   <div class="column" style="column-count: 5" >
     {% include figure.html path="assets/img/results/1peakcropped/1pberlin6.png"  class="img-fluid rounded z-depth-1" %}
     {% include figure.html path="assets/img/results/1peakcropped/1pboston6.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/1peakcropped/1pmaze310.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/1peakcropped/1pmaze3101.png"  class="img-fluid rounded z-depth-1" %}
     {% include figure.html path="assets/img/results/1peakcropped/1pmaze118.png"  class="img-fluid rounded z-depth-1" %}
     {% include figure.html path="assets/img/results/1peakcropped/1pparis7.png"  class="img-fluid rounded z-depth-1" %}
   </div>
