@@ -197,7 +197,7 @@ category: Research Projects
     {% include figure.html path="assets/img/results/unicropped/uboston3.png"  class="img-fluid rounded z-depth-1" %}
     {% include figure.html path="assets/img/results/unicropped/umaze32.png"  class="img-fluid rounded z-depth-1" %}
     {% include figure.html path="assets/img/results/unicropped/umaze12.png"  class="img-fluid rounded z-depth-1" %}
-    {% include figure.html path="assets/img/results/unicropped/uparis12.png"  class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/results/unicropped/uparis2.png"  class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="column" style="column-count: 5" >
     {% include figure.html path="assets/img/results/unicropped/uberlin4.png"  class="img-fluid rounded z-depth-1" %}
