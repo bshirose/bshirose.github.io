@@ -7,7 +7,7 @@ importance: 3
 category: Research Projects
 ---
 
-Here we demonstrate output trajectories given by GESCE when executed on MAPF benchmark maps referenced in [1](https://arxiv.org/abs/1906.08291). We use maps "Berlin_1_256", "Boston_0_256", "maze-32-32-4", "maze-128-128-10" and "Paris_1_256" for their high clutter value. These maps are shown in Figure 1. Along with that, we use 5 information maps as shown in Figure 2. Then tests are conducted on the five aforementioned obstacle maps and information maps, performing five simulations for each scenario with randomly chosen starting locations. Resulting trajectories, marked in red, are shown in grid below in Figure 3,4,5,6 and 7. 
+Here we demonstrate output trajectories given by GESCE when executed on MAPF benchmark maps referenced in Stern et. Al.(https://arxiv.org/abs/1906.08291). We use maps "Berlin_1_256", "Boston_0_256", "maze-32-32-4", "maze-128-128-10" and "Paris_1_256" for their high clutter value. These maps are shown in Figure 1. Along with that, we use 5 information maps as shown in Figure 2. Then tests are conducted on the five aforementioned obstacle maps and information maps, performing five simulations for each scenario with randomly chosen starting locations. Resulting trajectories, marked in red, are shown in grid below in Figure 3,4,5,6 and 7. Each line indicates a different starting location for the robot. 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
@@ -15,7 +15,7 @@ Here we demonstrate output trajectories given by GESCE when executed on MAPF ben
     </div>
 </div> 
 <div class="caption">
-    Figure 1. Information maps used for simulations
+    Figure 1. Obstacle maps used for simulations
 </div>
 
 
@@ -247,7 +247,7 @@ Here we demonstrate output trajectories given by GESCE when executed on MAPF ben
   </div>
 </div>
 <div class="caption">
-    Figure 7. Output trajectories using information map 6
+    Figure 7. Output trajectories using information map 5
 </div>
 
 
