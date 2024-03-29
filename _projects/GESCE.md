@@ -11,7 +11,7 @@ Here we demonstrate output trajectories given by GESCE when executed on MAPF ben
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/mapfmapsf.png"   class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/mapslab.png"   class="img-fluid rounded z-depth-1" %}
     </div>
 </div> 
 <div class="caption">
@@ -21,7 +21,7 @@ Here we demonstrate output trajectories given by GESCE when executed on MAPF ben
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/infopeaks.png"   class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/infolabel.png"   class="img-fluid rounded z-depth-1" %}
     </div>
 </div> 
 <div class="caption">
