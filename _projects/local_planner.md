@@ -3,7 +3,7 @@ layout: page
 title: Local Planner
 description: Fast efficient local planning for high speed robots
 img: assets/img/rob.png
-importance: 1
+importance: 3
 category: Research Projects
 # related_publications: einstein1956investigations, einstein1950meaning
 ---

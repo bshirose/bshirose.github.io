@@ -3,7 +3,7 @@ layout: page
 title: Decentralized Multi Agent convoy
 description: Efficient, Adaptive Multi-Agent Convoys, coordinated seamless and flexible transportation in complex environments.
 img: assets/img/mycars.jpg
-importance: 1
+importance: 2
 category: Research Projects
 # related_publications: einstein1956investigations, einstein1950meaning
 ---
