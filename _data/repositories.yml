@@ -3,10 +3,10 @@ github_users:
   # - alshedivat
 
 github_repos:
+  - bshirose/base-mapf-planners
   - bshirose/ergodic_planner
   - bshirose/RRT-based-planner
   - bshirose/domain-adaptation
-  - bshirose/A-star-planner
   
   # - twbs/bootstrap
   # - jekyll/jekyll
