@@ -2,7 +2,8 @@
 layout: page
 title: MAPF for complex robots
 description: An algorithm that solves MAPF problem for robots which cannot move in a grid based manner
-img: assets/img/mapf.png
+img: assets/img/mapffinal.gif
+# img: assets/img/mapf.png
 # redirect: https://unsplash.com
 importance: 1
 category: Robotics

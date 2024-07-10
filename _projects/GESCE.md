@@ -2,7 +2,8 @@
 layout: page
 title: Graph-Based Ergodic Search in Cluttered Environments
 description: Results of GESCE on Benchmark MAPF maps
-img: assets/img/fhope.png
+# img: assets/img/fhope.png
+img: assets/img/gesceanimation.gif
 importance: 1
 category: Research Projects
 ---

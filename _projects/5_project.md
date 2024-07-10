@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ROV for Biofoul Removal and Instpection
+title: ROV for Biofoul Removal and Inspection
 description: Underwater ROV with Biofouling Removal and Inspection Capabilities
 img: assets/img/urov2.gif
 importance: 3
