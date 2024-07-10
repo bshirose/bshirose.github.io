@@ -3,7 +3,7 @@ layout: page
 title: Robust Bi-Copter Control
 description: Applied robust control methods, achieving a remarkable stability margin on the Quanser Bi-copter system
 # img: assets/img/qqq.jpeg
-img: assets/img/stablecon.jpeg
+img: assets/img/stablecon.gif
 # redirect: https://unsplash.com
 importance: 3
 category: Robotics
