@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: /files/Resume.pdf
+permalink: /files/resume_burhan.pdf
 title: CV
 nav: true
 nav_order: 4
