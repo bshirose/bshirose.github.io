@@ -335,7 +335,7 @@ external_links:
 # -----------------------------------------------------------------------------
 
 imagemagick:
-  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false # off: the ubuntu-latest CI runner has no ImageMagick `convert`, so the -480/-800/-1400.webp files were never generated and <picture> pointed at missing images
   widths:
     - 480
     - 800
