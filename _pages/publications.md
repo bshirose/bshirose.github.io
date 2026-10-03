@@ -3,8 +3,9 @@ layout: page
 permalink: /publications/
 title: publications
 description: 
-nav: false
-nav_order: 1
+nav: true
+nav_order: 2
+body_class: rh-pubs-page
 ---
 <!-- _pages/publications.md -->
 <div class="publications">

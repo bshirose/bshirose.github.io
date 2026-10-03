@@ -1,0 +1,183 @@
+---
+layout: default
+---
+<!-- _layouts/research-home.html : homepage. All content lives in _pages/about.md front matter. -->
+<script>document.documentElement.classList.add("rh-js");</script>
+{%- assign h = page.hero -%}
+<div class="rh">
+
+  <!-- Hero ------------------------------------------------------------- -->
+  <section class="rh-hero" aria-labelledby="rh-name">
+    <div class="rh-hero-main">
+      <div class="rh-id">
+        <img class="rh-avatar" src="{{ h.photo | relative_url }}" alt="Portrait of {{ h.name }}" width="84" height="84" fetchpriority="high">
+        <p class="rh-eyebrow">
+          {{ h.eyebrow }}<br>
+          <a href="{{ h.lab_url }}">{{ h.lab }}</a> &middot; Advisor <a href="{{ h.advisor_url }}">{{ h.advisor }}</a>
+        </p>
+      </div>
+      <h1 class="rh-title" id="rh-name">{{ h.name }}<span>{{ h.headline }}</span></h1>
+      <p class="rh-lede">{{ h.lede }}</p>
+      <nav class="rh-actions" aria-label="Profiles and contact">
+        {%- if site.scholar_userid %}
+        <a class="rh-btn rh-btn--primary" href="https://scholar.google.com/citations?user={{ site.scholar_userid }}"><i class="ai ai-google-scholar" aria-hidden="true"></i>Google Scholar</a>
+        {%- endif %}
+        {%- if site.cv_link %}
+        <a class="rh-btn" href="{{ site.cv_link | relative_url }}"><i class="fas fa-file-pdf" aria-hidden="true"></i>CV PDF</a>
+        {%- endif %}
+        {%- if site.github_username %}
+        <a class="rh-btn" href="https://github.com/{{ site.github_username }}"><i class="fab fa-github" aria-hidden="true"></i>GitHub</a>
+        {%- endif %}
+        {%- if site.email %}
+        <a class="rh-btn" href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope" aria-hidden="true"></i>Email</a>
+        {%- endif %}
+        {%- if site.linkedin_username %}
+        <a class="rh-btn" href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="fab fa-linkedin" aria-hidden="true"></i>LinkedIn</a>
+        {%- endif %}
+      </nav>
+      <div class="rh-facts">
+        {%- for e in h.education %}
+        <div class="rh-fact">
+          <span class="rh-mono">{{ e.label }}</span>
+          <strong>{{ e.school }}</strong>
+          <em>{{ e.detail }}</em>
+        </div>
+        {%- endfor %}
+      </div>
+    </div>
+
+    <aside class="rh-news" aria-labelledby="rh-news-title">
+      <div class="rh-news-head">
+        <h2 id="rh-news-title">Recent</h2>
+        <a class="rh-mono" href="#rh-publications">publications &darr;</a>
+      </div>
+      <ol>
+        {%- for n in page.news %}
+        <li><time>{{ n.date }}</time><span>{{ n.text }}</span></li>
+        {%- endfor %}
+      </ol>
+    </aside>
+  </section>
+
+  <!-- About ------------------------------------------------------------ -->
+  <section class="rh-section rh-about rh-reveal" aria-label="About">
+    <div class="rh-about-grid">
+      <span class="rh-mono">About</span>
+      <div class="rh-about-text">{{ content }}</div>
+    </div>
+  </section>
+
+  <!-- Selected research ------------------------------------------------ -->
+  <section class="rh-section" id="rh-research" aria-labelledby="rh-research-title">
+    <header class="rh-section-head">
+      <h2 id="rh-research-title"><span class="rh-section-index rh-mono">01</span>Selected research</h2>
+      <span class="rh-mono">Figures and video from the papers and experiments</span>
+    </header>
+
+    <div class="rh-bento">
+      {%- for p in page.projects %}
+      <article class="rh-card rh-span-{{ p.span | default: 6 }} rh-reveal" style="--i: {{ forloop.index0 }}" id="research-{{ p.id }}">
+        {%- assign slot = nil -%}
+        {%- if p.figure_slot -%}
+          {%- assign slot = site.static_files | where: "path", p.figure_slot | first -%}
+        {%- endif -%}
+        {%- assign n_media = p.media | size -%}
+
+        <div class="rh-media{% if n_media == 0 %} rh-media--grow{% endif %}"{% if n_media > 1 %} data-rh-tabs{% endif %}>
+          {%- if n_media > 1 %}
+          <div class="rh-tabs" role="tablist" aria-label="{{ p.title }} media">
+            {%- for m in p.media %}
+            <button type="button" class="rh-tab" role="tab" aria-selected="{% if forloop.first %}true{% else %}false{% endif %}" tabindex="{% if forloop.first %}0{% else %}-1{% endif %}" aria-controls="pane-{{ p.id }}-{{ forloop.index }}">{{ m.label }}</button>
+            {%- endfor %}
+          </div>
+          {%- endif %}
+
+          {%- if n_media > 0 -%}
+            {%- for m in p.media %}
+            <div class="rh-media-pane{% if forloop.first %} is-active{% endif %}{% if m.fit == 'cover' %} rh-fit-cover{% endif %}" id="pane-{{ p.id }}-{{ forloop.index }}" role="{% if n_media > 1 %}tabpanel{% else %}group{% endif %}" aria-hidden="{% if forloop.first %}false{% else %}true{% endif %}">
+              {%- if m.type == "video" %}
+              <video muted loop playsinline preload="none" data-rh-autoplay poster="{{ m.poster | relative_url }}" aria-label="{{ m.caption }}">
+                <source src="{{ m.src | replace: '.mp4', '.webm' | relative_url }}" type="video/webm">
+                <source src="{{ m.src | relative_url }}" type="video/mp4">
+              </video>
+              {%- else %}
+              <img src="{{ m.src | relative_url }}" alt="{{ m.alt | default: m.caption }}" loading="lazy" decoding="async">
+              {%- endif %}
+              {%- if m.caption %}<span class="rh-media-caption">{{ m.caption }}</span>{% endif %}
+            </div>
+            {%- endfor -%}
+          {%- elsif slot -%}
+            <div class="rh-media-pane is-active">
+              <img src="{{ p.figure_slot | relative_url }}" alt="{{ p.title }} figure" loading="lazy" decoding="async">
+            </div>
+          {%- else -%}
+            <div class="rh-media-pane is-active">
+              <div class="rh-figure-pending">
+                <b>{{ p.figure_pending.value }}</b>
+                <span>{{ p.figure_pending.label }}</span>
+              </div>
+            </div>
+          {%- endif -%}
+        </div>
+
+        <div class="rh-card-body">
+          <div class="rh-card-meta">
+            {%- for pill in p.pills %}<span class="rh-pill rh-pill--{{ pill.kind }}">{{ pill.label }}</span>{% endfor -%}
+          </div>
+          <h3>{{ p.title }}</h3>
+          <p>{{ p.summary }}</p>
+          {%- assign n_links = p.links | size -%}
+          {%- if n_links > 0 %}
+          <div class="rh-links">
+            {%- for l in p.links %}<a href="{{ l.url | relative_url }}">{{ l.label }}</a>{% endfor -%}
+          </div>
+          {%- endif %}
+          <div class="rh-metrics">
+            {%- for m in p.metrics %}
+            <div class="rh-metric"><b>{{ m.value }}</b><span>{{ m.label }}</span></div>
+            {%- endfor %}
+          </div>
+        </div>
+      </article>
+      {%- endfor %}
+    </div>
+  </section>
+
+  <!-- Video wall ------------------------------------------------------- -->
+  <section class="rh-section" id="rh-videos" aria-labelledby="rh-videos-title">
+    <header class="rh-section-head">
+      <h2 id="rh-videos-title"><span class="rh-section-index rh-mono">02</span>Robotics in action</h2>
+      <span class="rh-mono">Silent loops from field and lab experiments</span>
+    </header>
+    <div class="rh-wall">
+      {%- for v in page.videos %}
+      <figure class="rh-tile rh-reveal" style="--i: {{ forloop.index0 }}">
+        <video muted loop playsinline preload="none" data-rh-autoplay poster="{{ v.poster | relative_url }}" aria-label="{{ v.title }}: {{ v.caption }}">
+          <source src="{{ v.src | replace: '.mp4', '.webm' | relative_url }}" type="video/webm">
+          <source src="{{ v.src | relative_url }}" type="video/mp4">
+        </video>
+        <span class="rh-tile-index">{{ forloop.index | prepend: "0" }}</span>
+        <figcaption><b>{{ v.title }}</b><span>{{ v.caption }}</span></figcaption>
+      </figure>
+      {%- endfor %}
+    </div>
+  </section>
+
+  <!-- Publications ----------------------------------------------------- -->
+  <section class="rh-section" id="rh-publications" aria-labelledby="rh-pubs-title">
+    <header class="rh-section-head">
+      <h2 id="rh-pubs-title"><span class="rh-section-index rh-mono">03</span>Publications</h2>
+      <a class="rh-mono" href="{{ '/publications/' | relative_url }}">by year &rarr;</a>
+    </header>
+    <div class="publications rh-reveal">
+      {% bibliography -f {{ site.scholar.bibliography }} --group_by none %}
+    </div>
+  </section>
+
+  <!-- Contact ---------------------------------------------------------- -->
+  <section class="rh-section rh-contact" aria-label="Contact">
+    <span class="rh-mono">Contact</span>
+    <p>{{ site.contact_note }}</p>
+    <p class="rh-mono">Robotics Institute, Carnegie Mellon University, Pittsburgh, PA</p>
+  </section>
+</div>

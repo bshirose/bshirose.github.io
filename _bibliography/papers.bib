@@ -3,83 +3,163 @@
 
 @string{aps = {American Physical Society,}}
 
+% -----------------------------------------------------------------------------
+% Custom fields (hidden from the rendered BibTeX by filtered_bibtex_keywords):
+%   abbr        short venue label shown in the pill
+%   venue_type  conf | journal | workshop | symposium | chapter  (pill color)
+%   role        e.g. "First author"
+%   preview     thumbnail in assets/img/publications/
+%   video       link or site path to a video
+%   website     project page on this site
+% Keep every custom field on a single line.
+% -----------------------------------------------------------------------------
 
-@book{9663518,
-  bibtex_show={true},
-  author={V, Nandha Kizor and Shirose, Burhanuddin and Adak, Mainak and Kumar, Mitesh and J, Sudarsana Jayandan and Srinivasan, Arun and Muhammad, Raashid Sheikh},
-  booktitle={2021 9th RSI International Conference on Robotics and Mechatronics (ICRoM)}, 
-  title={Design of a Remotely Operated Vehicle (ROV) for Biofoul Cleaning and Inspection of Variety of Underwater Structures}, 
-  year={2021},
-  volume={},
-  number={},
-  pages={451-457},
-  publisher={IEEE Xplore},
-  preview={urov.gif},
-  paper = {https://ieeexplore.ieee.org/document/9663518},
-  doi={10.1109/ICRoM54204.2021.9663518}}
-
-@article{Shirose_2022,
-bibtex_show={true},
-doi = {10.1088/1742-6596/2251/1/012002},
-url = {https://dx.doi.org/10.1088/1742-6596/2251/1/012002},
-year = {2022},
-month = {apr},
-publisher = {IOP Publishing},
-volume = {2251},
-number = {1},
-pages = {012002},
-author = {Burhanuddin Shirose and Kunal Yadav and LS Meenatchi and K Vedhanarayan},
-title = {Robotic arm for brake performance testing},
-journal = {Journal of Physics: Conference Series},
-preview={dcee.png},
-paper = {https://iopscience.iop.org/article/10.1088/1742-6596/2251/1/012002}
-}
-@inbook{inbook,
-bibtex_show={true},
-author = {Premkumar, s and Prakash, Yash and Shirose, Burhanuddin and Dhivakar, K. and Kapur, Mayank and L.N, Puthiyavan and Arul, Ssmrithi},
-year = {2022},
-month = {01},
-pages = {247-257},
-title = {T-Ceres—An Automated Machine for Any T-Shirt to Bag Conversion},
-isbn = {978-981-19-0295-6},
-doi = {10.1007/978-981-19-0296-3_22},
-paper = {https://link.springer.com/chapter/10.1007/978-981-19-0296-3_22},
-preview={tc.png}
-}
-@INPROCEEDINGS{10802461,
-  author={Shirose, Burhanuddin and Johnson, Adam and Vundurthy, Bhaskar and Choset, Howie and Travers, Matthew},
-  booktitle={2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
-  title={GESCE: Graph-based Ergodic Search in Cluttered Environments}, 
-  year={2024},
-  volume={},
-  number={},
-  pages={7611-7616},
-  keywords={Weight measurement;Search problems;Linear programming;Time measurement;Probability distribution;Planning;Trajectory;Topology;Intelligent robots;Testing;Ergodic search;cluttered environments;graph-based search;path planning},
-  doi={10.1109/IROS58592.2024.10802461},
-  preview={labelledfirstimage.png},
-  selected={true}
-  }
-
-@ARTICLE{Sriganesh2024-op,
-  title         = {Modular, Resilient, and Scalable System Design Approaches Lessons learned in the years after {DARPA} Subterranean Challenge},
-  author        = {Sriganesh, Prasanna and Maier, James and Johnson, Adam and Shirose, Burhanuddin and Chandrasekar, Rohan and Noren, Charles and Spisak, Joshua and Darnley, Ryan and Vundurthy, Bhaskar and Travers, Matthew},
-  month         =  {apr},
-  year          =  {2024},
-  copyright     = {http://arxiv.org/licenses/nonexclusive-distrib/1.0/},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.RO},
-  preview={archi.png},
-  eprint        = {2404.17759}
-}
-
-@ARTICLE{Sriganesh2025-dz,
-  title         = {A Bayesian modeling framework for estimation and ground segmentation of cluttered staircases},
-  author        = {Sriganesh, Prasanna and Shirose, Burhanuddin and Travers, Matthew},
-  month         =  {jan},
+@inproceedings{shen2025cap,
+  title         = {{CAP}: A Connectivity-Aware Hierarchical Coverage Path Planning Algorithm for Unknown Environments using Coverage Guidance Graph},
+  author        = {Shen, Zongyuan and Shirose, Burhanuddin and Sriganesh, Prasanna and Travers, Matthew},
+  booktitle     = {2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
   year          = {2025},
-  copyright     = {http://arxiv.org/licenses/nonexclusive-distrib/1.0/},
+  month         = {oct},
+  doi           = {10.1109/IROS60139.2025.11247648},
+  abbr          = {IROS 2025},
+  venue_type    = {conf},
+  preview       = {cap.jpg},
+  video         = {/assets/video/research/cap_realworld.mp4},
+  bibtex_show   = {true},
+  selected      = {true}
+}
+
+@inproceedings{noren2025convoy,
+  title         = {Communication Network Construction Behaviors for Robotic Convoying},
+  author        = {Noren, Charles and Chaudhary, Sahil and Shirose, Burhanuddin and Vundurthy, Bhaskar and Travers, Matthew},
+  booktitle     = {Proceedings of the 2025 Ground Vehicle Systems Engineering and Technology Symposium (GVSETS)},
+  organization  = {NDIA},
+  address       = {Novi, MI},
+  year          = {2025},
+  month         = {aug},
+  abbr          = {GVSETS 2025},
+  venue_type    = {symposium},
+  preview       = {convoy.jpg},
+  video         = {/assets/video/research/convoy_decentralized.mp4},
+  bibtex_show   = {true},
+  selected      = {true}
+}
+
+@article{sriganesh2025stairs,
+  title         = {A Bayesian Modeling Framework for Estimation and Ground Segmentation of Cluttered Staircases},
+  author        = {Sriganesh, Prasanna and Shirose, Burhanuddin and Travers, Matthew},
+  journal       = {IEEE Robotics and Automation Letters},
+  volume        = {10},
+  number        = {5},
+  pages         = {4164},
+  year          = {2025},
+  month         = {may},
+  doi           = {10.1109/LRA.2025.3549662},
+  eprint        = {2501.04170},
   archivePrefix = {arXiv},
   primaryClass  = {cs.RO},
-  preview       = {stair.png},
-  eprint        = {2501.04170}
+  abbr          = {IEEE RA-L},
+  venue_type    = {journal},
+  preview       = {stairs.jpg},
+  bibtex_show   = {true},
+  selected      = {true}
+}
+
+@inproceedings{shirose2024gesce,
+  title         = {{GESCE}: Graph-based Ergodic Search in Cluttered Environments},
+  author        = {Shirose, Burhanuddin and Johnson, Adam and Vundurthy, Bhaskar and Choset, Howie and Travers, Matthew},
+  booktitle     = {2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages         = {7611--7616},
+  year          = {2024},
+  month         = {oct},
+  doi           = {10.1109/IROS58592.2024.10802461},
+  abbr          = {IROS 2024},
+  venue_type    = {conf},
+  role          = {First author},
+  preview       = {gesce.png},
+  website       = {/projects/GESCE/},
+  bibtex_show   = {true},
+  selected      = {true}
+}
+
+@inproceedings{noren2024vegetation,
+  title         = {An Interaction-Aware Two-Level Robotic Planning and Control System for Vegetation Override},
+  author        = {Noren, Charles and Vundurthy, Bhaskar and Scherer, Sebastian and Travers, Matthew and Shirose, Burhanuddin},
+  booktitle     = {Proceedings of the International Society for Terrain-Vehicle Systems (ISTVS) Conference},
+  year          = {2024},
+  abbr          = {ISTVS 2024},
+  venue_type    = {conf},
+  bibtex_show   = {true}
+}
+
+@inproceedings{sriganesh2024subt,
+  title         = {Modular, Resilient, and Scalable System Design Approaches -- Lessons Learned in the Years after {DARPA} Subterranean Challenge},
+  author        = {Sriganesh, Prasanna and Maier, James and Johnson, Adam and Shirose, Burhanuddin and Chandrasekar, Rohan and Noren, Charles and Spisak, Joshua and Darnley, Ryan and Vundurthy, Bhaskar and Travers, Matthew},
+  booktitle     = {IEEE ICRA Workshop on Field Robotics},
+  year          = {2024},
+  month         = {apr},
+  eprint        = {2404.17759},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.RO},
+  abbr          = {ICRA-W 2024},
+  venue_type    = {workshop},
+  preview       = {subt_lessons.png},
+  bibtex_show   = {true}
+}
+
+@inproceedings{vundurthy2024moes,
+  title         = {Generalized Multi-Agent Multi-Objective Ergodic Search},
+  author        = {Vundurthy, Bhaskar and Gutow, Geordan and Srinivasan, Akshaya and Xu, A. and Shirose, Burhanuddin and others},
+  booktitle     = {AAAI Workshop on Multi-Agent Path Finding},
+  year          = {2024},
+  abbr          = {AAAI MAPF-W},
+  venue_type    = {workshop},
+  bibtex_show   = {true}
+}
+
+@article{shirose2022brake,
+  title         = {Robotic Arm for Brake Performance Testing},
+  author        = {Shirose, Burhanuddin and Yadav, Kunal and Meenatchi, L. S. and Vedhanarayan, K.},
+  journal       = {Journal of Physics: Conference Series (RoAI 2021)},
+  publisher     = {IOP Publishing},
+  volume        = {2251},
+  number        = {1},
+  pages         = {012002},
+  year          = {2022},
+  month         = {apr},
+  doi           = {10.1088/1742-6596/2251/1/012002},
+  abbr          = {RoAI 2021},
+  venue_type    = {conf},
+  role          = {First author},
+  preview       = {brakearm.jpg},
+  bibtex_show   = {true}
+}
+
+@inbook{premkumar2022tceres,
+  title         = {T-Ceres: An Automated Machine for Any T-Shirt to Bag Conversion},
+  author        = {Premkumar, S. and Prakash, Yash and Shirose, Burhanuddin and Dhivakar, K. and Kapur, Mayank and Puthiyavan, L. N. and Arul, Ssmrithi},
+  publisher     = {Springer},
+  pages         = {247--257},
+  year          = {2022},
+  month         = {jan},
+  isbn          = {978-981-19-0295-6},
+  doi           = {10.1007/978-981-19-0296-3_22},
+  abbr          = {Springer},
+  venue_type    = {chapter},
+  preview       = {tceres.png},
+  bibtex_show   = {true}
+}
+
+@inproceedings{kizor2021rov,
+  title         = {Design of a Remotely Operated Vehicle ({ROV}) for Biofoul Cleaning and Inspection of Variety of Underwater Structures},
+  author        = {V, Nandha Kizor and Shirose, Burhanuddin and Adak, Mainak and Kumar, Mitesh and J, Sudarsana Jayandan and Srinivasan, Arun and Muhammad, Raashid Sheikh},
+  booktitle     = {2021 9th RSI International Conference on Robotics and Mechatronics (ICRoM)},
+  pages         = {451--457},
+  publisher     = {IEEE},
+  year          = {2021},
+  doi           = {10.1109/ICRoM54204.2021.9663518},
+  abbr          = {ICRoM 2021},
+  venue_type    = {conf},
+  preview       = {rov.jpg},
+  bibtex_show   = {true}
 }

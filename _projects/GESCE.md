@@ -8,6 +8,21 @@ importance: 1
 category: Research Projects
 ---
 
+<p class="rh-links" style="margin-bottom:1.25rem">
+  <a href="https://doi.org/10.1109/IROS58592.2024.10802461">Paper (IROS 2024)</a>
+  <a href="{{ '/publications/' | relative_url }}#shirose2024gesce">BibTeX</a>
+  <a href="{{ '/' | relative_url }}#research-gesce">Research overview</a>
+</p>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/research/gesce_fig1.png" class="img-fluid rounded z-depth-1" alt="GESCE Figure 1: ergodic trajectory through a cluttered maze" %}
+    </div>
+</div>
+<div class="caption">
+    GESCE builds a graph of the free space and searches it with ergodicity as the heuristic, so the trajectory (red) stays collision-free while matching the information distribution.
+</div>
+
 Here we demonstrate output trajectories given by GESCE when executed on MAPF benchmark maps referenced in [Stern et. Al.](https://arxiv.org/abs/1906.08291). We use maps "Berlin_1_256", "Boston_0_256", "maze-32-32-4", "maze-128-128-10" and "Paris_1_256" for their high clutter value. These maps are shown in Figure 1. Along with that, we use 5 information maps as shown in Figure 2. Then tests are conducted on the five aforementioned obstacle maps and information maps, performing five simulations for each scenario with randomly chosen starting locations. Resulting trajectories, marked in red, are shown in grid below in Figure 3,4,5,6 and 7. Each line indicates a different starting location for the robot. 
 
 <div class="row justify-content-sm-center">
